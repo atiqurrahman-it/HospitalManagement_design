@@ -122,10 +122,15 @@ li a:hover{
  }
 
 /* about us section */
+#about-section{
+    width: 100%;
+    clear: both;
+    background-color: #0c95ef;
+}
 .about_us h1{
     text-transform: uppercase;
     color: #09ecd8;
-    margin-top: 100px;
+    padding-top: 80px;
     letter-spacing: 0.1rem;
     font-family: 'Font Awesome 5 Brands';
 }
@@ -146,7 +151,7 @@ li a:hover{
     .about_us h1{
         text-transform: uppercase;
         color: #c6f00d;
-        margin-top: 170px;
+        margin-top: 40px;
         letter-spacing: 0.1rem;
         font-family: 'Font Awesome 5 Brands';
     }
@@ -332,6 +337,11 @@ pl-2, .px-2 {
 }
 
  /* services section  */
+ #our-services{
+    width: 100%;
+    clear: both;
+    background-color: rgb(220 220 220);
+ }
  .box {
     position: relative;
     width: 100%;
